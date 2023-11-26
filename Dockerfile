@@ -11,4 +11,4 @@ RUN sed -i \
   /opt/postal/app/lib/postal/smtp_server/client.rb 
 
 COPY production.rb /opt/postal/app/config/environments/production.rb
-COPY application.html.haml /opt/postal/app/views/layouts/application.html.haml
+COPY application.html.haml /opt/postal/app/app/views/layouts/application.html.haml
